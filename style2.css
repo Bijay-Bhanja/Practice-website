@@ -4,7 +4,7 @@
     background-size: cover;
   }
   .container {
-    width: 500px;
+    width: 480px;
     /* height: 300px; */
   }
 
@@ -82,7 +82,7 @@
     margin-left: 0px;
   }
   .middleside img {
-    height: 150px;
+    height: 200px;
   }
   .rightside {
     margin-top: 20px;
