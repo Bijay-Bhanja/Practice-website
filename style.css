@@ -1,0 +1,775 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(./background.jpg);
+
+  min-height: 790px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.firstPage {
+  background-image: linear-gradient(
+    rgba(3, 11, 25, 0.815),
+    rgba(3, 11, 25, 0.815)
+  );
+  min-height: 790px;
+  margin: 10px 10px 10px 10px;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+}
+.firstPage ion-icon {
+  color: white;
+  width: 40px;
+  margin-top: 10%;
+  height: 40px;
+}
+.icon {
+  text-align: center;
+
+  top: 30px;
+  padding: 10px;
+  word-spacing: 30px;
+}
+.firstPage p {
+  font-size: 70px;
+  text-decoration: solid;
+  text-transform: uppercase;
+  color: white;
+  font-family: sans-serif;
+  letter-spacing: 20px;
+  text-align: center;
+  margin-top: 6%;
+}
+.link a {
+  font-size: 30px;
+  text-decoration: inherit;
+  color: white;
+}
+.link {
+  text-align: center;
+  word-spacing: 20px;
+
+  margin-top: 5%;
+}
+.link a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.firstPage #selector1 {
+  background: transparent;
+  font-size: 30px;
+  color: wheat;
+  margin-left: 10px;
+  text-align: center;
+}
+.option {
+  text-align: center;
+  margin-top: 50px;
+  top: 50px;
+}
+
+/* second page */
+
+.secondPage {
+  background-image: linear-gradient(
+    rgba(3, 11, 25, 0.815),
+    rgba(3, 11, 25, 0.815)
+  );
+  min-height: 790px;
+  margin: 10px 10px 10px 10px;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.left {
+  display: flex;
+}
+.leftside img {
+  width: 150px;
+  height: 150px;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+.leftside .about {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.leftside .about p {
+  font-size: 30px;
+  color: white;
+  word-spacing: 10px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  line-height: 50px;
+}
+.about button {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: transparent;
+  border: solid 2px white;
+  color: white;
+  margin-top: 20px;
+}
+.leftButtom {
+  margin-left: 80px;
+  margin-top: 30px;
+  color: white;
+  font-size: 20px;
+}
+.leftButtom audio {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.middleside {
+  margin-top: 80px;
+  margin-left: 80px;
+}
+.middleside img {
+  width: 100%;
+  height: 100%;
+}
+.rightside {
+  margin-top: 150px;
+  margin-left: 80px;
+  font-size: 20px;
+  /* font-family: sans-serif; */
+  color: white;
+  margin-right: 80px;
+}
+.name {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-left: 180px;
+  margin-bottom: 20px;
+  justify-content: center;
+  text-align: justify;
+}
+.rightside button {
+  width: 100%;
+  height: 40px;
+  text-transform: uppercase;
+  background: transparent;
+  color: white;
+  border: solid 2px white;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.rightside h3 {
+  margin-left: 39%;
+  text-decoration: underline;
+}
+.top {
+  display: flex;
+}
+.bottom {
+  position: relative;
+
+  margin-left: 50%;
+  margin-top: 10%;
+}
+.bottom p {
+  font-size: 20px;
+  color: white;
+  margin-left: 70px;
+}
+.bottom input {
+  width: 350px;
+  height: 40px;
+}
+.bottom button {
+  width: 90px;
+  height: 40px;
+  background: transparent;
+  color: white;
+  border: solid 2px white;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: white;
+  transition: background-color 1.5s;
+  color: black;
+}
+
+/* thirdpage */
+
+.thirdpage {
+  background-image: linear-gradient(
+    rgba(3, 11, 25, 0.815),
+    rgba(3, 11, 25, 0.815)
+  );
+  min-height: 790px;
+  margin: 10px 10px 10px 10px;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.third {
+  margin: 0px 80px 0px 80px;
+}
+.page {
+  margin-bottom: 30px;
+}
+.page .news p {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.thirdfast {
+  display: flex;
+  margin-top: 30px;
+}
+.image2 img {
+  width: 450px;
+  height: 350px;
+  margin-right: 30px;
+}
+.page p {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+.secondpara .paragraph {
+  font-size: 15px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.page1 {
+  /* margin-left: 80px; */
+  margin-top: 30px;
+}
+.page1 p {
+  color: white;
+}
+.page1 button {
+  padding: 10px;
+  text-transform: uppercase;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  margin-top: 10px;
+  height: 40px;
+  width: 150px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+.page1 ion-icon {
+  margin-left: 20px;
+  color: white;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.share {
+  display: flex;
+}
+.fourthdiv {
+  display: flex;
+  margin-bottom: 30px;
+}
+.image3 img {
+  width: 400px;
+  height: 300px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.lorem {
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-top: 50px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.para2 {
+  margin-top: 50px;
+}
+.para2 .paragraph {
+  font-size: 15px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+}
+.page3 p {
+  margin-top: 30px;
+  font-size: 15px;
+  color: white;
+}
+.leave {
+  display: flex;
+}
+.leave button {
+  width: 200px;
+  height: 40px;
+  text-transform: uppercase;
+  background: transparent;
+  margin-top: 30px;
+  border: solid 2px white;
+  color: white;
+  margin-right: 20px;
+}
+button:hover {
+  color: black;
+  background-color: white;
+}
+.leave ion-icon {
+  font-size: 30px;
+}
+.page3 .lorem2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+.page3 img {
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.page3 .paragraph1 {
+  /* font-size: 1.1rem; */
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+.page4 p {
+  margin-top: 30px;
+  font-size: 15px;
+  color: white;
+}
+.comment {
+  display: flex;
+}
+.comment button {
+  width: 200px;
+  height: 40px;
+  text-transform: uppercase;
+  background: transparent;
+  margin-top: 30px;
+  border: solid 2px white;
+  color: white;
+  margin-right: 20px;
+}
+button:hover {
+  color: black;
+  background-color: white;
+}
+.comment ion-icon {
+  font-size: 30px;
+}
+.page4 .lorem3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+.image4 {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 50px;
+  margin-bottom: 60px;
+}
+.page4 img {
+  margin-top: 40px;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  width: 450px;
+  height: 500px;
+}
+.page4 .paragraph2 {
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+.page5 p {
+  margin-top: 30px;
+  font-size: 15px;
+  color: white;
+}
+.comment2 {
+  display: flex;
+}
+.comment2 button {
+  width: 200px;
+  height: 40px;
+  text-transform: uppercase;
+  background: transparent;
+  margin-top: 30px;
+  border: solid 2px white;
+  color: white;
+  margin-right: 20px;
+}
+button:hover {
+  color: black;
+  background-color: white;
+}
+.comment2 ion-icon {
+  font-size: 30px;
+}
+.page5 .lorem4 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+
+.page5 .paragraph4 {
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+.page6 p {
+  margin-top: 30px;
+  font-size: 15px;
+  color: white;
+}
+.comment3 {
+  display: flex;
+}
+.comment3 button {
+  width: 200px;
+  height: 40px;
+  text-transform: uppercase;
+  background: transparent;
+  margin-top: 30px;
+  border: solid 2px white;
+  color: white;
+  margin-right: 20px;
+}
+button:hover {
+  color: black;
+  background-color: white;
+}
+.comment3 ion-icon {
+  font-size: 30px;
+}
+.page6 .lorem5 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+
+.page6 .paragraph5 {
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+.page6 img {
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 450px;
+  margin-bottom: 40px;
+}
+.page7 p {
+  margin-top: 30px;
+  font-size: 15px;
+  color: white;
+}
+.comment4 {
+  display: flex;
+}
+.comment4 button {
+  width: 200px;
+  height: 40px;
+  text-transform: uppercase;
+  background: transparent;
+  margin-top: 30px;
+  border: solid 2px white;
+  color: white;
+  margin-right: 20px;
+}
+button:hover {
+  color: black;
+  background-color: white;
+}
+.comment4 ion-icon {
+  font-size: 30px;
+}
+.page7 .lorem6 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+
+.page7 .paragraph6 {
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+.page7 img {
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 250px;
+  margin-bottom: 40px;
+}
+.page8 p {
+  margin-top: 30px;
+  font-size: 15px;
+  color: white;
+}
+.comment5 {
+  display: flex;
+}
+.comment5 button {
+  width: 200px;
+  height: 40px;
+  text-transform: uppercase;
+  background: transparent;
+  margin-top: 30px;
+  border: solid 2px white;
+  color: white;
+  margin-right: 20px;
+}
+button:hover {
+  color: black;
+  background-color: white;
+}
+.comment5 ion-icon {
+  font-size: 30px;
+}
+.page8 .lorem7 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+.page8 img {
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  height: 550px;
+  margin-bottom: 40px;
+}
+.page9 p {
+  margin-top: 30px;
+  font-size: 15px;
+  color: white;
+}
+.comment6 {
+  display: flex;
+}
+.comment6 button {
+  width: 200px;
+  height: 40px;
+  text-transform: uppercase;
+  background: transparent;
+  margin-top: 30px;
+  border: solid 2px white;
+  color: white;
+  margin-right: 20px;
+}
+button:hover {
+  color: black;
+  background-color: white;
+}
+.comment6 ion-icon {
+  font-size: 30px;
+}
+.page9 .lorem8 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+.page9 .paragraph7 {
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+.page9 video {
+  width: 30%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.page10 p {
+  margin-top: 30px;
+  font-size: 15px;
+  color: white;
+}
+.comment7 {
+  display: flex;
+  margin-bottom: 40px;
+}
+.comment7 button {
+  width: 200px;
+  height: 40px;
+  text-transform: uppercase;
+  background: transparent;
+  margin-top: 30px;
+  border: solid 2px white;
+  color: white;
+  margin-right: 20px;
+}
+button:hover {
+  color: black;
+  background-color: white;
+}
+.comment7 ion-icon {
+  font-size: 30px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.center {
+  display: flex;
+  margin-left: 50%;
+}
+.flex .center a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: inherit;
+}
+.center a:hover {
+  text-decoration: underline;
+}
+.left {
+  display: flex;
+}
+.flex .left a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: inherit;
+}
+.left a:hover {
+  text-decoration: underline;
+}
+.fourthpage {
+  background-image: linear-gradient(
+    rgba(3, 11, 25, 0.815),
+    rgba(3, 11, 25, 0.815)
+  );
+  min-height: 250px;
+  margin: 10px 10px 10px 10px;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.fourth {
+  margin: 0px 80px 0px 80px;
+}
+.fourthpage .fourth p {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 50px;
+}
+.fourthpage .fourth a {
+  color: white;
+  font-size: 1.5rem;
+}
+.fourthpage .fourth .ion {
+  font-size: 30px;
+  margin-top: 40px;
+}
+.fifthpage {
+  background-image: linear-gradient(
+    rgba(3, 11, 25, 0.815),
+    rgba(3, 11, 25, 0.815)
+  );
+  min-height: 790px;
+  margin: 10px 10px 10px 10px;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.fifth {
+  margin: 0px 80px 0px 80px;
+}
+.fifthpage .fifth p {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 200;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.section {
+  display: flex;
+  justify-content: space-around;
+}
+.section p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 1.1rem;
+}
+.section .grey {
+  color: rgb(105, 100, 100);
+}
+.flex {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.sixthpage {
+  background-image: linear-gradient(
+    rgba(3, 11, 25, 0.815),
+    rgba(3, 11, 25, 0.815)
+  );
+  min-height: 250px;
+  margin: 10px 10px 10px 10px;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.sixth {
+  margin: 0px 80px 0px 80px;
+}
+.sixth p {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 30px;
+  color: grey;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.footer a {
+  font-size: 20px;
+  color: grey;
+  text-decoration: inherit;
+  text-decoration: underline;
+  font-family: sans-serif;
+}

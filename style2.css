@@ -1,0 +1,374 @@
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+    background-size: cover;
+  }
+  .container {
+    width: 320px;
+    /* height: 300px; */
+  }
+
+  .firstPage {
+    /* width: 300px; */
+    width: 100%;
+    min-height: 600px;
+  }
+  .firstPage ion-icon {
+    /* color: black; */
+    width: 20px;
+    height: 20px;
+    margin-top: 100px;
+  }
+  .icon {
+    padding: 1px;
+    word-spacing: 10px;
+  }
+  .firstPage p {
+    font-size: 15px;
+    letter-spacing: 10px;
+    margin-top: 15%;
+  }
+  .link {
+    display: flex;
+    flex-direction: column;
+    word-spacing: 3px;
+  }
+  .link a {
+    font-size: 10px;
+    margin-top: 15px;
+  }
+  .secondPage {
+    width: 100%;
+  }
+
+  .leftside img {
+    width: 150px;
+    height: 200px;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .leftside .about {
+    margin-top: 5px;
+  }
+  .leftside .about p {
+    font-size: 11px;
+    margin-top: 20px;
+    word-spacing: 3px;
+  }
+  .about button {
+    margin-top: 2px;
+    font-size: 10px;
+    width: 100px;
+    margin-top: 5px;
+  }
+  .para p {
+    font-size: 5px;
+  }
+  .leftButtom {
+    margin-left: 10px;
+  }
+  .leftButtom p {
+    margin-top: 5px;
+  }
+  .leftButtom audio {
+    width: 200px;
+    height: 40px;
+  }
+  .top {
+    flex-direction: column;
+  }
+  .middleside {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .middleside img {
+    height: 150px;
+  }
+  .rightside {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .rightside .name {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+  .rightside p {
+    margin-left: 5px;
+    font-size: 15px;
+  }
+  .rightside h3 {
+    margin-left: 30%;
+  }
+  .bottom {
+    margin-left: 0px;
+  }
+  .bottom p {
+    font-size: 15px;
+  }
+  .bottom input {
+    width: 280px;
+    height: 20px;
+    margin-left: 10px;
+  }
+  .bottom button {
+    width: 90px;
+    height: 30px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+  }
+
+  .thirdpage {
+    width: 100%;
+  }
+  .third {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .page .news p {
+    font-size: 30px;
+  }
+  .page p {
+    font-size: 20px;
+  }
+  .thirdfast {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .image2 img {
+    width: 280px;
+    height: 200px;
+  }
+  .fourthdiv {
+    flex-direction: column;
+  }
+  .para2 {
+    margin-top: 20px;
+  }
+  .para2 .paragraph {
+    margin-bottom: 15px;
+  }
+  .image3 img {
+    width: 280px;
+    height: 200px;
+  }
+  .lorem {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .page3 p {
+    margin-top: 20px;
+  }
+  .leave button {
+    width: 150px;
+    margin-top: 20px;
+  }
+  .leave ion-icon {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .page3 .lorem2 {
+    font-size: 20px;
+  }
+  .page3 img {
+    width: 280px;
+    height: 200px;
+    margin-top: 20px;
+  }
+  .page4 p {
+    margin-top: 20px;
+  }
+  .comment button {
+    width: 150px;
+    margin-top: 20px;
+  }
+  .comment ion-icon {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  .page4 .lorem3 {
+    font-size: 20px;
+  }
+  .image4 {
+    column-gap: 20px;
+    margin-bottom: 20px;
+  }
+  .page4 img {
+    width: 130px;
+    height: 135px;
+    margin-top: 20px;
+  }
+  .page4 .paragraph2 {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .page5 p {
+    margin-top: 20px;
+  }
+  .comment2 button {
+    margin-top: 20px;
+  }
+  .comment2 ion-icon {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  .page5 .lorem4 {
+    font-size: 20px;
+  }
+  .page5 .paragraph4 {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .page6 p {
+    margin-top: 20px;
+  }
+  .comment3 button {
+    margin-top: 20px;
+  }
+  .comment3 ion-icon {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  .page6 .lorem5 {
+    font-size: 20px;
+  }
+  .page6 .paragraph5 {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .page6 img {
+    width: 200px;
+    height: 150px;
+  }
+  .page7 p {
+    margin-top: 20px;
+  }
+  .comment4 button {
+    margin-top: 20px;
+  }
+  .comment4 ion-icon {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  .page7 .lorem6 {
+    font-size: 20px;
+  }
+  .page7 .paragraph6 {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .page7 img {
+    width: 200px;
+    height: 150px;
+  }
+  .page8 p {
+    margin-top: 20px;
+  }
+  .comment5 button {
+    margin-top: 20px;
+  }
+  .comment5 ion-icon {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  .page8 .lorem7 {
+    font-size: 20px;
+  }
+  .page8 img {
+    width: 280px;
+    height: 180px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .page9 p {
+    margin-top: 20px;
+  }
+  .comment6 button {
+    margin-top: 20px;
+  }
+  .comment6 ion-icon {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  .page9 .lorem8 {
+    font-size: 20px;
+  }
+  .page9 .paragraph7 {
+    font-size: 15px;
+  }
+  .page9 video {
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .page10 p {
+    margin-top: 15px;
+  }
+  .comment7 {
+    margin-bottom: 20px;
+  }
+  .comment7 ion-icon {
+    font-size: 25px;
+    margin-top: 25px;
+  }
+  .flex {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .flex .center a {
+    font-size: 1rem;
+  }
+  .flex .left a {
+    font-size: 1rem;
+  }
+  .fourthpage {
+    min-height: 150px;
+    width: 100%;
+  }
+  .fourth {
+    margin: 0px 10px 0px 10px;
+  }
+  .fourthpage .fourth p {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+  }
+  .fourthpage .fourth a {
+    font-size: 20px;
+  }
+  .fourthpage .fourth .ion {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .fifthpage {
+    width: 100%;
+  }
+  .fifth {
+    margin: 0px 20px 0px 20px;
+  }
+  .fifthpage .fifth p {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .section p {
+    font-size: 0.3rem;
+  }
+  .sixthpage {
+    min-height: 100px;
+    width: 100%;
+  }
+  .sixth {
+    margin: 0px 20px 0px 20px;
+  }
+  .sixth p {
+    font-size: 10px;
+  }
+  .footer {
+    margin-top: 20px;
+  }
+  .footer a {
+    font-size: 10px;
+  }
+}
